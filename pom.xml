@@ -59,7 +59,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.15</version>
+            <version>1.2.49</version>
         </dependency>
 
         <dependency>
@@ -93,7 +93,11 @@
             <version>1.0.18</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.12</version>
+        </dependency>
 
         <dependency>
             <groupId>com.oracle</groupId>
@@ -132,11 +136,6 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>taobao-sdk</groupId>
-            <artifactId>taobao-sdk-auto</artifactId>
-            <version>0.0.4</version>
-        </dependency>
-        <dependency>
             <groupId>com.ailk.ecs</groupId>
             <artifactId>Linkage-UDPCommon</artifactId>
             <version>0.0.3</version>
@@ -150,6 +149,13 @@
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
             <version>1.8.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
